@@ -1,0 +1,327 @@
+/* Mobile and middle size tablets */
+@media (min-width: 270px) and (max-width: 850px){
+
+    .nav-items{
+        display: none;
+    }
+
+    .active-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0;
+        width: 100%;
+        position: relative;
+    }
+
+    .active-nav a{
+        margin: 1rem 0;
+        animation: none;
+        opacity: 1;
+    }
+    
+
+    .nav-container{
+        position: relative;
+        padding: 3rem 3rem;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .nav-container .menu-icon{
+        display: block;
+        color: white;
+        font-size: 3rem;
+        position: absolute;
+        top: 2.5rem;
+        right: 3rem;
+    }
+    
+    .nav-container .inactive-menu-icon{
+        display: none;
+    }
+
+    .theme{
+        position: absolute;
+        bottom: -4rem;
+        right: 0px;
+    }
+
+    .logo img{
+        max-width: 5rem;
+    }
+
+    #home{
+        padding: 2rem 0rem;
+    }
+
+    .home-container{
+        padding: 0rem;
+        flex-direction: column-reverse;
+    }
+
+    .home-container .left{
+        width: 100%;
+        text-align: center;
+        padding: 4rem 2rem;
+    }
+
+    .left h3{
+        font-size: 2rem;
+    }
+
+    .left h1{
+        font-size: 3rem;
+    }
+
+    .media-icons a i{
+        margin: 0 1rem;
+        font-size: 2rem;
+    }
+
+    .left .btn{
+        font-size: 1.7rem;
+    }
+
+    .home-container .right{
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .right img{
+        width: 20rem;
+    }
+
+    #boundary{
+        padding: 0 2rem;
+    }
+
+    /* About section */
+
+    #about{
+        padding: 2rem 0rem;
+        width: 100%;
+    }
+    #about h2{
+        font-size: 3rem;
+    }
+
+    .about-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .about-container .about-left{
+        width: 100%;
+    }
+
+    .timeline-container{
+        left: 20%;
+        width: 80%;
+    }
+
+    .timeline-container img{
+        left: -20px;
+    }
+
+    .timeline-container .timeline-text-box{
+        /* width: 60%; */
+        font-size: 1rem;
+    }
+
+    .vertical-line{
+        left: 20%;
+        height: 90%;
+    }
+
+    .about-container .about-right{
+        width: 100%;
+    }
+
+
+    /* Skills section */
+
+    #skills{
+        padding: 2rem 0rem;
+        width: 100%;
+    }
+
+    .skills-container h2{
+        font-size: 3rem;
+    }
+
+    .lang h3{
+        font-size: 2rem;
+    }
+
+    .skill .skill-name{
+        font-size: 1.5rem;
+    }
+
+    .skill .skill-bar{
+        width: 90%;
+    }
+
+    .skill{
+        padding: 0 2rem;
+    }
+    
+    .other-skills-logo img{
+        max-width: 8rem;
+        height: 5rem;
+        border-radius: 7px;
+        margin: 2rem 1rem;
+    }
+
+
+    .projects-container  h2{
+        font-size: 3rem;
+    }
+
+
+    .project  h2{
+        font-size: 1.8rem;
+    }
+
+    .project img{
+        max-width: 250px;
+    }
+
+    .project .tags{
+        max-width: 250px;
+    }
+
+    .project .tags span{
+        font-size: 0.8rem;
+    }
+
+    .project .links{
+        font-size: 1.3rem;
+        gap: 2rem
+    }
+
+    .projects-container .projects-inner-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7rem;
+    }
+
+
+}
+
+@media (min-width: 480px) and (max-width: 850px){
+    .home-container{
+        margin: 20rem 0;
+    }
+
+    .timeline-container{
+        left: 20%;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    #boundary{
+        padding: 2rem;
+    }
+
+    .project h2{
+        font-size: 1.8rem;
+    }
+
+    .project img{
+        max-width: 200px;
+    }
+
+    .project .tags{
+        max-width: 200px;
+    }
+
+    .project .tags span{
+        font-size: 0.7rem;
+    }
+
+    .project .links{
+        font-size: 1.3rem;
+        gap: 2rem
+    }
+
+
+    .projects-container .projects-inner-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7rem;
+    }
+
+}
+
+
+/* Large size tablets and middle desktops */
+@media (min-width: 850px) and (max-width: 1400px){
+
+    #home{
+        padding: 2rem 0;
+    }
+
+    .home-container{
+        padding: 3rem 0rem;
+    }
+
+    .home-container .left{
+        padding: 5rem 0 5rem 15rem;
+    }
+
+    .left h3{
+        font-size: 2rem;
+    }
+
+    .left h1{
+        font-size: 4rem;
+    }
+
+    .left .btn{
+        font-size: 2rem;
+    }
+
+    .right img{
+        width: 25rem;
+    }
+
+    #boundary{
+        padding: 0 10rem;
+    }
+
+    .project img{
+        max-width: 300px;
+    }
+
+    .project .tags{
+        max-width: 300px;
+    }
+
+}
+
+
+
+
+@media (min-width: 1900px){
+    .nav-container{
+        max-width: 160rem;
+        margin: 0 auto;
+    }
+    
+    /* .home-container{
+        max-width: 160rem;
+        margin: 10rem auto;
+    } */
+    
+    .content-container{
+        max-width: 160rem;
+        margin: 0 auto;
+    }
+
+
+}
