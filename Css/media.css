@@ -123,7 +123,7 @@
     }
 
     .timeline-container img{
-        left: -20px;
+        left: -28px;
     }
 
     .timeline-container .timeline-text-box{
@@ -194,7 +194,7 @@
     }
 
     .project .tags span{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .project .links{
@@ -292,6 +292,26 @@
 
     #boundary{
         padding: 0 10rem;
+    }
+
+    .timeline-container{
+        padding: 1rem 0rem;
+        padding-right: 5rem;
+
+    }
+
+    .timeline-container.timeline-right-container{
+        padding: 1rem 0rem;
+        padding-right: 1rem;
+        padding-left: 5rem;
+    }
+
+    .timeline-container .timeline-text-box{
+        padding: 1rem 0.5rem;
+    }
+
+    .vertical-line{
+        height: 620px;
     }
 
     .project img{

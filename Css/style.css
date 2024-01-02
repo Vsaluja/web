@@ -269,17 +269,19 @@ body {
 }
 
 .timeline-container img{
-    width: 4rem;
+    width: 6rem;
+    height: 6rem;
+    border: 3px solid var(--blue-color);
     border-radius: 100%;
     position: absolute;
     top: 3rem;
-    right: -20px;
+    right: -30px;
     z-index: 2;
     box-shadow: 0px 5px 20px black;
 }
 
 .timeline-right-container img{
-    left: -20px;
+    left: -30px;
 }
 
 
@@ -290,6 +292,11 @@ body {
     border-radius: 7px;
     padding: 1rem 1rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 130px;
     /* width: 90%; */
     box-shadow: 0px 5px 20px black;
 }
@@ -305,7 +312,7 @@ body {
     top: 3rem;
     left: 49.5%;
     width: 0.5rem;
-    height: 75%;
+    height: 600px;
     border-radius: 10px;
     background-color: rgb(6, 18, 29);
     box-shadow: 0px 5px 15px var(--blue-color);
@@ -530,7 +537,7 @@ body {
 }
 
 .project .tags span{
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 5px 10px;
     background-color: var(--blue-color);
     border-radius: 20px;
