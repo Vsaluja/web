@@ -517,6 +517,7 @@ body {
 
 .project h2{
     font-size: 2rem;
+    max-width: 250px;
     border: none;
     margin: 0;
     padding: 0;
@@ -572,6 +573,20 @@ body {
     color: white;
 }
 
+
+.project .details > p{
+    text-align: center;
+    color: var(--blue-color);
+}
+
+.project .details > div{
+    display: flex;
+    gap: 10px;
+}
+
+.details > div p{
+    text-decoration: none;
+}
 
 /* Footer */
 

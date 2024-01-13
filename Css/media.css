@@ -209,6 +209,13 @@
         gap: 7rem;
     }
 
+    .project .details > div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-transform: none;
+    }
+
 
 }
 
@@ -254,6 +261,12 @@
         justify-content: center;
         align-items: center;
         gap: 7rem;
+    }
+
+    .project .details > div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
 }
