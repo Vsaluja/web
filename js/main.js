@@ -125,6 +125,7 @@ function changeBackground() {
 
 }
 
+
 function main() {
 
     displayNav();
@@ -134,6 +135,8 @@ function main() {
     animateOnScroll();
 
     changeBackground();
+
+    navigate();
 
 }
 
