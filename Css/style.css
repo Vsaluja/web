@@ -456,13 +456,18 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 3rem;
 }
 
-.other-skills-logo img{
-    max-width: 12rem;
-    height: 8rem;
+.other-skills-logo img {
+    max-width: 10rem;
+    /* height: 8rem; */
     border-radius: 7px;
     margin: 2rem;
+}
+.other-skills-logo  i{
+    font-size: 10rem;
+    margin-top: 2rem;
 }
 
 #projects{
@@ -474,7 +479,7 @@ body {
 .projects-container{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
 }
 
 .projects-container h2{
@@ -514,7 +519,6 @@ body {
 .project img{
     max-width: 400px;
     border-radius: 10px;
-    cursor: pointer;
 }
 
 .project h2{
