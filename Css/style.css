@@ -456,14 +456,14 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 3rem;
+    /* gap: 3rem; */
 }
 
 .other-skills-logo img {
     max-width: 10rem;
-    /* height: 8rem; */
+    height: 8rem;
     border-radius: 7px;
-    margin: 2rem;
+    margin: 3rem;
 }
 .other-skills-logo  i{
     font-size: 10rem;
