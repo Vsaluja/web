@@ -439,6 +439,9 @@ body {
 .skill-bar .java{
     background-color: orangered;
 }
+.skill-bar .ts{
+    background-color: #00ABF0;
+}
 
 .other-skills{
     margin: 10rem 0rem;
@@ -454,13 +457,13 @@ body {
 
 .other-skills-logo{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     /* gap: 3rem; */
 }
 
 .other-skills-logo img {
-    max-width: 10rem;
+    max-width: 12rem;
     height: 8rem;
     border-radius: 7px;
     margin: 3rem;
