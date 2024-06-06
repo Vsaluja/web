@@ -301,6 +301,10 @@ body {
     box-shadow: 0px 5px 20px black;
 }
 
+.timeline-container .timeline-text-box p{
+    font-weight: 500;
+}
+
 .timeline-container{
     color: black;
 }
@@ -312,7 +316,7 @@ body {
     top: 3rem;
     left: 49.5%;
     width: 0.5rem;
-    height: 600px;
+    height: 800px;
     border-radius: 10px;
     background-color: rgb(6, 18, 29);
     box-shadow: 0px 5px 15px var(--blue-color);
