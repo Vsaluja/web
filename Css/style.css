@@ -368,7 +368,39 @@ body {
     transition: 0.4s;
 }
 
+/* Certifications section */
 
+#certifications{
+    padding: 2rem;
+    width: 100%;
+}
+
+
+.certifications-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.certifications-container h2{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 10rem;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+    border-bottom: 2px solid var(--blue-color);
+}
+
+.certifications-container .cert-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cert-list img{
+    max-width: 20%;
+}
 
 /* Skills section*/
 
@@ -678,14 +710,14 @@ footer p {
 @keyframes floatImg{
     0%{
         transform: translateY(0px);
-       
+
     }
     50%{
         transform: translateY(-10px);
     }
     100%{
         transform: translateY(0px);
-        
+
     }
 }
 

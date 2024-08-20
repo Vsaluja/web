@@ -20,7 +20,7 @@
         animation: none;
         opacity: 1;
     }
-    
+
 
     .nav-container{
         position: relative;
@@ -37,7 +37,7 @@
         top: 2.5rem;
         right: 3rem;
     }
-    
+
     .nav-container .inactive-menu-icon{
         display: none;
     }
@@ -140,6 +140,11 @@
         width: 100%;
     }
 
+    /* Certification section */
+    .cert-list img{
+        max-width: 50%;
+    }
+
 
     /* Skills section */
 
@@ -167,7 +172,7 @@
     .skill{
         padding: 0 2rem;
     }
-    
+
     .other-skills-logo img{
         max-width: 8rem;
         height: 5rem;
@@ -257,7 +262,10 @@
         gap: 7rem;
     }
 
- 
+    /* Certification section */
+    .cert-list img{
+        max-width: 30%;
+    }
 
 }
 
@@ -335,12 +343,12 @@
         max-width: 160rem;
         margin: 0 auto;
     }
-    
+
     /* .home-container{
         max-width: 160rem;
         margin: 10rem auto;
     } */
-    
+
     .content-container{
         max-width: 160rem;
         margin: 0 auto;
