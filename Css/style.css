@@ -398,9 +398,14 @@ body {
     align-items: center;
 }
 
-.cert-list img{
+.cert-list a{
     max-width: 20%;
 }
+
+.cert-list a img{
+    width: 100%;
+}
+
 
 /* Skills section*/
 

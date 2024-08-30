@@ -141,7 +141,7 @@
     }
 
     /* Certification section */
-    .cert-list img{
+    .cert-list a{
         max-width: 50%;
     }
 
@@ -263,7 +263,7 @@
     }
 
     /* Certification section */
-    .cert-list img{
+    .cert-list a{
         max-width: 30%;
     }
 
