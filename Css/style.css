@@ -311,12 +311,25 @@ body {
 
 
 
-.vertical-line{
+/* .vertical-line{
     position: absolute;
     top: 3rem;
     left: 49.5%;
     width: 0.5rem;
     height: 750px;
+    border-radius: 10px;
+    background-color: rgb(6, 18, 29);
+    box-shadow: 0px 5px 15px var(--blue-color);
+} */
+
+.vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;              /* 👈 makes it stretch full parent height */
+    left: 50%;              /* center properly */
+    transform: translateX(-50%); /* perfect centering */
+
+    width: 0.5rem;
     border-radius: 10px;
     background-color: rgb(6, 18, 29);
     box-shadow: 0px 5px 15px var(--blue-color);
