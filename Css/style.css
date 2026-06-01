@@ -306,8 +306,13 @@ body {
 
 .tl-card {
     flex: 1;
-    background-color: #0d1f2d;
+    /* background-color: #0b151c;
+    background-color: #081824; */
+    background-color: #071723;
+    /* background-color: var(--nav-bg-color); */
     /* border: 1px solid rgba(220, 20, 60, 0.25); */
+    /* border: 1px solid rgba(32, 21, 23, 0.25); */
+    /* border: 0.5px solid var(--blue-color); */
     border-radius: 10px;
     padding: 1.2rem 1.6rem;
     margin-bottom: 0.6rem;
