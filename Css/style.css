@@ -286,6 +286,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    box-shadow: 1px 1px 50px black;
 }
 
 .tl-logo img {
@@ -306,12 +307,15 @@ body {
 
 .tl-card {
     flex: 1;
-    /* background-color: #0b151c;
-    background-color: #081824; */
-    background-color: #071723;
+    /* background-color: #0b151c; */
+    /* background-color: #081824; */
+    background-color: #091e2d;
+    /* background-color: #212121; */
+    /* box-shadow: 10px 10px 100px black; */
+    /* box-shadow: 1px 1px 5px var(--blue-color); */
     /* background-color: var(--nav-bg-color); */
     /* border: 1px solid rgba(220, 20, 60, 0.25); */
-    /* border: 1px solid rgba(32, 21, 23, 0.25); */
+    /* border: 1px solid black; */
     /* border: 0.5px solid var(--blue-color); */
     border-radius: 10px;
     padding: 1.2rem 1.6rem;
@@ -319,10 +323,10 @@ body {
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-.tl-card:hover {
+/* .tl-card:hover {
     border-color: var(--blue-color);
     box-shadow: 0 4px 20px rgba(220, 20, 60, 0.15);
-}
+} */
 
 .tl-card-head {
     display: flex;
@@ -423,7 +427,8 @@ body {
 
 .connect i {
     color: var(--blue-color);
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     margin: 0.5rem 0;
 }
 
